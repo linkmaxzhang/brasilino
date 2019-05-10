@@ -58,7 +58,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.paypal.developer.jeffprestes.brasilino.java.client.raspberry.Start</mainClass>                            
+                            <mainClass>com.max.client.raspberry.Engine</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -69,10 +69,9 @@
                   <descriptorRefs>
                     <descriptorRef>jar-with-dependencies</descriptorRef>
                   </descriptorRefs>
-                  <version>2.5.1</version>
                   <archive>
                     <manifest>
-                      <mainClass>com.paypal.developer.jeffprestes.brasilino.java.client.raspberry.Start</mainClass>
+                      <mainClass>com.max.client.raspberry.Engine</mainClass>
                     </manifest>
                   </archive>
                 </configuration>
